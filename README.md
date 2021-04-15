@@ -6,7 +6,17 @@ Terminal
 But you can do the same thing by using the terminal, you just have to change the directory to the desired location where you want to create the file which can be done be `cd <directory>` where cd stands for change directory. Then you can simply write `code file_name.py` which will automatically create a fiile and then can save it by ctrl+s. This might seem nothing but it makes you workflow much faster, you are not using your mouse, everything is happening with keyboard and just takes 2 commands. When you get more experienced this will hardly 5-10 secs. Now this arises a question that are there different terminal programs? If yes then do they have different commands? Well no. For this we need to understand what shell is, so here we go - 
 
 Shell
-: It is basically a computer program/software that interprets and executes the various commands that we type in the terminal. So the terminal sends the user input to the shell, the shell generates the output and sends it back to the terminal for display. In the above example of creating a file through terminal, it's shell which creates the file, and its terminal which enables us to enter the command. There are many shells out there, one of the most famous one is - **bash** which stands for **Bourne Again Shell**. Some other examples are - tcsh (turbo c shell), csh (c shell), powershell & cmd (found in windows). 
+: It is basically a computer program/software that interprets and executes the various commands that we type in the terminal. It is an environment in which we can run our commands, programs, and shell scripts. So the terminal sends the user input to the shell, the shell generates the output and sends it back to the terminal for display. In the above example of creating a file through terminal, it's shell which creates the file, and its terminal which enables us to enter the command. There are many types of shells out there and each type of shell has it's own set of recognised commands. It is independent of the terminal program/emulator we use.
+- A prompt is issued by the shell like $ and %  which is displayed on the screen. We can also customize this prompt by using Environment variables. 
+- In unix there are two major types of shells -
+	- Bourne shell : In a Bourne-type shell the default prompt is the **$** character.
+		- Bourne shell (sh)
+		- Korn shell (ksh)
+		- Bourne Again shell (bash)
+		- POSIX shell (sh)
+	- C shell : In a C-type shell the default prompt is the **%** character.
+		- C shell (csh)
+		- TENEX/TOPS C shell (tcsh)
 
 Console
 : Terminal and Console are basically synonyms. They are in general sense physcial terminals. They are equipments through which we can interact with computer. The name *terminal* came from an electronic point of view and *console* from a hardware point of view. 
