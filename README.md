@@ -17,6 +17,7 @@ But you can do the same thing by using the terminal, you just have to change the
 	- C shell : In a C-type shell the default prompt is the **%** character.
 		- C shell (csh)
 		- TENEX/TOPS C shell (tcsh)
+		- zsh
 
 ### Console
 : Terminal and Console are basically synonyms. They are in general sense physcial terminals. They are equipments through which we can interact with computer. The name *terminal* came from an electronic point of view and *console* from a hardware point of view. 
